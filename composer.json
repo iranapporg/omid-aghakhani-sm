@@ -1,0 +1,14 @@
+{
+    "name": "omid-aghakhani/sms",
+    "description": "send sms with different driver",
+    "type": "library",
+    "license": "MIT",
+	"version":"1.0.0",
+	"autoload": {
+		"files": [
+		"src/Sms.php",
+		"src/drivers/Sms_parsgreen.php","src/drivers/Sms_smsir.php","src/drivers/Sms_smsir_v2.php","src/drivers/Sms_smsto.php"]
+	},
+    "minimum-stability": "stable",
+    "require": {}
+}
